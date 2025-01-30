@@ -1,7 +1,5 @@
 # Fake News Detection using NLP
 
-![Fake News Detection](https://user-images.githubusercontent.com/example/fake-news-banner.png)
-
 ## 📌 Overview
 This project implements **Fake News Detection** using **Natural Language Processing (NLP)** and **Machine Learning techniques**. We explore various **traditional ML models, deep learning architectures, sentiment analysis, and transformer-based approaches** to classify news articles as **real or fake**.
 
@@ -47,30 +45,6 @@ The dataset used is sourced from **Kaggle**, containing **6,335 articles** class
   - **BERT: 98.0% accuracy**
   - **XLNet: 98.8% accuracy**
   - **DistilBERT: 97.6% accuracy**
-
-## ⚙ Installation & Setup
-Clone the repository:
-```bash
-git clone https://github.com/valentinvale/FakeNewsDetection.git
-cd FakeNewsDetection
-```
-
-Create and activate a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
-
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## ▶ Usage
-Run the **Fake News Detector** using:
-```bash
-python main.py
-```
 
 ## 📊 Results & Performance
 | Model | Accuracy | Precision | Recall |
